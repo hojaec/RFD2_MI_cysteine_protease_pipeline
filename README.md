@@ -235,7 +235,7 @@ per their own instructions; they are **not** bundled here.
 
 | Tool | Used for | Source |
 |------|----------|--------|
-| RFdiffusion (all-atom) | Backbone scaffolding & partial diffusion | https://github.com/RosettaCommons/RFdiffusion |
+| RFdiffusion2-MI | Backbone scaffolding & partial diffusion |  |
 | ProteinMPNN | Sequence design | https://github.com/dauparas/ProteinMPNN |
 | dl_binder_design (FastRelax+MPNN, silent_tools) | Constrained sequence design + silent I/O | https://github.com/nrbennet/dl_binder_design |
 | AlphaFold3 | Structure prediction (apo & complex) | https://github.com/google-deepmind/alphafold3 |
@@ -243,10 +243,7 @@ per their own instructions; they are **not** bundled here.
 
 ### Key references
 
-- Watson, J. L. et al. *De novo design of protein structure and function with
-  RFdiffusion.* **Nature** (2023).
-- Krishna, R. et al. *Generalized biomolecular modeling and design with
-  RoseTTAFold All-Atom.* **Science** (2024).
+
 - Dauparas, J. et al. *Robust deep learning–based protein sequence design using
   ProteinMPNN.* **Science** (2022).
 - Bennett, N. R. et al. *Improving de novo protein binder design with deep
