@@ -1,0 +1,24 @@
+# Conda environment for the analysis/orchestration scripts in this repo.
+#
+#   conda env create -f environment.yml
+#   conda activate protease-design-pipeline
+#
+# This environment runs the lightweight Python glue (task-list generation,
+# structure parsing, geometric filtering, plotting). The deep-learning models
+# themselves (RFdiffusion, ProteinMPNN, AlphaFold2/3, Chai-1) are run from
+# their own environments/containers — see README.md ("External tools").
+name: protease-design-pipeline
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - numpy>=1.23
+  - pandas>=1.5
+  - biopython>=1.81
+  - matplotlib>=3.6
+  - seaborn>=0.12
+  - pip
+  # PyRosetta is only needed for 05_fix_motif_and_constraints.py.
+  # It is distributed from the RosettaCommons channel and requires a licence:
+  #   conda install -c https://conda.rosettacommons.org pyrosetta
