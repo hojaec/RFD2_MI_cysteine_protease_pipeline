@@ -1,0 +1,4 @@
+description,pdb_path,plddt
+candidate_01,/home/hojaec/work/protease_ulp/protease-design-pipeline/demo/af3/round3_apo/pdbs/candidate_01_apo.pdb,92.5
+candidate_02_induced_fit,/home/hojaec/work/protease_ulp/protease-design-pipeline/demo/af3/round3_apo/pdbs/candidate_02_apo.pdb,91.0
+candidate_03_low_confidence,/home/hojaec/work/protease_ulp/protease-design-pipeline/demo/af3/round3_apo/pdbs/candidate_03_apo.pdb,85.0

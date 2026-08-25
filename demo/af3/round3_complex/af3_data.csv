@@ -1,0 +1,4 @@
+description,pdb_path,complex_plddt,pae_interface,iptm,key_plddt
+candidate_01,/home/hojaec/work/protease_ulp/protease-design-pipeline/demo/af3/round3_complex/pdbs/candidate_01_complex.pdb,93.1,0.85,0.93,88.4
+candidate_02_induced_fit,/home/hojaec/work/protease_ulp/protease-design-pipeline/demo/af3/round3_complex/pdbs/candidate_02_complex.pdb,92.0,1.0,0.91,86.0
+candidate_03_low_confidence,/home/hojaec/work/protease_ulp/protease-design-pipeline/demo/af3/round3_complex/pdbs/candidate_03_complex.pdb,91.0,1.1,0.85,87.0

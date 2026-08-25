@@ -1,0 +1,18 @@
+# Python dependencies for the analysis/orchestration scripts in this repo.
+#
+# These cover the lightweight glue code that BUILDS task lists, parses PDB/mmCIF
+# structures, and applies geometric filters. The heavy deep-learning tools
+# (RFdiffusion, ProteinMPNN/LigandMPNN, AlphaFold2/3, Chai-1, PyRosetta) are
+# NOT installed via pip here — they run from their own environments/containers
+# on an HPC cluster. See README.md ("External tools") for those.
+
+numpy>=1.23
+pandas>=1.5
+biopython>=1.81
+matplotlib>=3.6
+seaborn>=0.12
+
+# Only needed for scripts that write Rosetta constraint files / label motif
+# residues (05_fix_motif_and_constraints.py). Install separately if used:
+#   conda install -c https://conda.rosettacommons.org pyrosetta
+# pyrosetta
