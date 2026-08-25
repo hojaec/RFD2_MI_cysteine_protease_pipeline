@@ -250,10 +250,6 @@ per their own instructions; they are **not** bundled here.
 ### Key references
 
 - Bauer, M. S. et al. De novo design of phospho-tyrosine peptide binders. Preprint at https://doi.org/10.1101/2025.09.29.678898 (2025).
-- Watson, J. L. et al. *De novo design of protein structure and function with
-  RFdiffusion.* **Nature** (2023).
-- Krishna, R. et al. *Generalized biomolecular modeling and design with
-  RoseTTAFold All-Atom.* **Science** (2024).
 - Dauparas, J. et al. *Robust deep learning–based protein sequence design using
   ProteinMPNN.* **Science** (2022).
 - Bennett, N. R. et al. *Improving de novo protein binder design with deep
