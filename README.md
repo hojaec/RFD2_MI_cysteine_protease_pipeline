@@ -243,7 +243,7 @@ per their own instructions; they are **not** bundled here.
 
 ### Key references
 
-
+- Bauer, M. S. et al. De novo design of phospho-tyrosine peptide binders. Preprint at https://doi.org/10.1101/2025.09.29.678898 (2025).
 - Dauparas, J. et al. *Robust deep learning–based protein sequence design using
   ProteinMPNN.* **Science** (2022).
 - Bennett, N. R. et al. *Improving de novo protein binder design with deep
