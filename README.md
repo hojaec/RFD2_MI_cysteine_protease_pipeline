@@ -241,7 +241,7 @@ per their own instructions; they are **not** bundled here.
 
 | Tool | Used for | Source |
 |------|----------|--------|
-| RFdiffusion2-MI | Backbone scaffolding & partial diffusion |  |
+| RFdiffusion2-MI | Backbone scaffolding & partial diffusion | https://github.com/magnusbauer/RFDiffusion2_all_the_code |
 | ProteinMPNN | Sequence design | https://github.com/dauparas/ProteinMPNN |
 | dl_binder_design (FastRelax+MPNN, silent_tools) | Constrained sequence design + silent I/O | https://github.com/nrbennet/dl_binder_design |
 | AlphaFold3 | Structure prediction (apo & complex) | https://github.com/google-deepmind/alphafold3 |
